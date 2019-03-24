@@ -19,7 +19,7 @@ Go Back to College
 > - The answer must be sent as:
 >
 > ```
-> !ep1 -rep <answer>.
+> !ep1 -rep <answer>
 > ```
 >
 > **Example**
