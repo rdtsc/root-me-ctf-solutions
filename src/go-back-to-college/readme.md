@@ -31,8 +31,9 @@ Go Back to College
 >
 > **Connection Information**
 >
-> |  Host       | irc.root-me.org    |
+> | Attribute   | Value              |
 > |-------------|--------------------|
+> | Host        | irc.root-me.org    |
 > | Protocol    | IRC                |
 > | Port        | 6667               |
 > | IRC Channel | #root-me_challenge |
