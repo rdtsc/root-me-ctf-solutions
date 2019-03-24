@@ -1,0 +1,13 @@
+{
+  "name": "root-me-ctf-solutions",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "irc": "^0.5.2",
+    "randomstring": "^1.1.5",
+    "wavy": "^1.0.4"
+  },
+  "scripts": {
+    "postinstall": "node node_modules/wavy/postinstall"
+  }
+}
