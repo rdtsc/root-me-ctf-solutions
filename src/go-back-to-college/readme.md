@@ -16,7 +16,7 @@ Go Back to College
 >   gets the message !ep1
 > - If the bot does not respond, then you have been banned.
 >   Just wait a few minutes.
-> - The answer must be sent as :
+> - The answer must be sent as:
 >
 > ```
 > !ep1 -rep <answer>.
