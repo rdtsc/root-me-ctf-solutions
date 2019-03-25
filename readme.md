@@ -7,6 +7,14 @@ It is strongly encouraged that you do not view my solutions unless you've
 already solved the relevant problems yourself.
 
 
+## Environment
+
+- Linux
+- Node.js >= v10.15.3
+- pngtopnm
+- gocr
+
+
 ## License and Copyright
 
 All original code is released under the [MIT license][mit], unless otherwise
