@@ -10,9 +10,11 @@ already solved the relevant problems yourself.
 ## Background
 
 Each challenge consists of some (typically non-static) dataset that must be
-processed according to the problem statement and submitted back to the specified
-URI via a `GET` or `POST` request. Assuming a correct and timely submission,
-points for the specified challenge are automatically credited to your account.
+processed according to the problem statement and submitted back to an IRC bot or
+to the specified URI via a `GET` or `POST` request. Assuming a correct and
+timely submission, a level unlock flag is revealed. This flag must then be
+`POST`-ed back to the original challenge endpoint (via an authenticated session)
+to receive points.
 
 Most challenges have a dataset/solution TTL of a few seconds, so performance
 isn't that important.
