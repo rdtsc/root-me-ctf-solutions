@@ -1,40 +1,18 @@
-Go Back to College
-------------------
+Arithmetic Progression
+----------------------
 
-> To start the challenge using IRC, you must send a private message to bot
-> Candy : !ep1. The bot replies with a message in private with a string
-> like this:
+> Start the challenge by navigating to:
+> `http://challenge01.root-me.org/programmation/ch1/`
 >
-> ```
-> <number1>/<number2>
-> ```
+> **Sample Input**
 >
-> - You must calculate the square root of the number n°1 and multiply the
->   result by the number n°2.
-> - Then you need to round to two decimals.
-> - You have 2 seconds to send the correct answer from the time the bot
->   gets the message !ep1
-> - If the bot does not respond, then you have been banned.
->   Just wait a few minutes.
-> - The answer must be sent as:
+> U<sub>n+1</sub> = [ -4 + U<sub>n</sub> ] + [ n * -12 ]
 >
-> ```
-> !ep1 -rep <answer>
-> ```
+> U<sub>0</sub> = 888
 >
-> **Example**
+> You must find U<sub>612687</sub>
 >
-> ```
-> 25/2
-> You must send "!ep1 -rep <response>" as private message to the bot.
-> ```
+> **Constraints**
 >
-> **Connection Information**
->
-> | Attribute   | Value              |
-> |-------------|--------------------|
-> | Host        | irc.root-me.org    |
-> | Protocol    | IRC                |
-> | Port        | 6667               |
-> | IRC Channel | #root-me_challenge |
-> | Bot         | candy              |
+> You have only 2 seconds to send the result with the HTTP GET method
+> (at `http://challenge01.root-me.org/programmation/ch1/ep1_v.php?result=...`)
