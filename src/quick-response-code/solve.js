@@ -2,7 +2,7 @@
 
 'use strict';
 
-const JsQr         = require('jsqr'),
+const jsQr         = require('jsqr'),
       {PNG}        = require('pngjs'),
       {http:solve} = require('~/lib/solve');
 
@@ -44,7 +44,7 @@ solve(7, ($) =>
   injectQrMarker(20, 220);
   injectQrMarker(220, 20);
 
-  const result = JsQr(png.data, png.width, png.height);
+  const result = jsQr(png.data, png.width, png.height);
 
   if(!result || !/key is/i.test(result.data)) return;
 
