@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "ebg13": "^1.3.9",
     "irc": "^0.5.2",
     "jsqr": "^1.2.0",
